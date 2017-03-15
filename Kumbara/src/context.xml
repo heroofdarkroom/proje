@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="paraId" class="para.model.Para">
+	
+		<property name="deger" ref="tenId"></property>
+
+	</bean>
+	<bean id="paraId2" class="para.model.Para">
+	
+		<property name="deger" ref="twentyId"></property>
+
+	</bean>
+	<bean id="tenId" class="para.model.tenCent" />
+	<bean id="twentyId" class="para.model.twentyCent" />
+
+
+</beans>
